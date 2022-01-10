@@ -1,5 +1,14 @@
+# general
 __*
 .*
+*.png
+*.fits
+
+# folders
+data 
 
 # except
 !.gitignore
+!data/crab_offax_sky.fits
+!data/crab_offax.fits
+!data/crab_offax_ctsmap.fits
