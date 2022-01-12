@@ -12,7 +12,7 @@ from sagsci.tools.plotting import SkyImage
 
 dl3 = './data/crab_offax.fits'
 template = './data/counts_map_template.fits'
-maproi = 5
+maproi = 3
 pixelsize = 0.02
 
 m = Fits()
