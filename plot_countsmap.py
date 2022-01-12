@@ -33,8 +33,8 @@ plot.set_target_from_dict(target=target).set_pointing_from_dict(pointing=pointin
 plot.counts_map(file=obs, trange=trange, erange=erange, pixelsize=pixelsize, roi=roi, name=img, figsize=figsize, fontsize=fontsize)
 # map with wcs celestial projection
 img = obs.replace('.fits', '_sky3.png')
-plot.plot_fits_skymap(file=sky, name=img, figsize=figsize, fontsize=fontsize, roi=roi)
+plot.plot_fits_skymap(file=sky, name=img, figsize=figsize, fontsize=fontsize)
 img = obs.replace('.fits', '_sky4_wreg.png')
 regions = [{'ra': 84.1205639560909, 'dec': 22.62576046697816, 'rad': 0.2}, {'ra': 83.85004186955878, 'dec': 22.964984433951212, 'rad': 0.2}, {'ra': 83.41615813044122, 'dec': 22.964984433951212, 'rad': 0.2}, {'ra': 83.1456360439091, 'dec': 22.625760466978157, 'rad': 0.2}]
-plot.plot_fits_skymap_with_regions(file=sky, regions=regions, name=img, figsize=figsize, fontsize=fontsize, roi=roi)
+plot.plot_fits_skymap_with_regions(file=sky, regions=regions, name=img, figsize=figsize, fontsize=fontsize)
 
